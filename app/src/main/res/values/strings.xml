@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageView</string>
+    <string name="change_image">Change Image</string>
+    <string name="todo">TODO</string>
+    <string name="change_image2">Change Image</string>
+    <string name="todo2">TODO</string>
+</resources>

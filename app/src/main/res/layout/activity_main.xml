@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/idImageViewSemafor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.04"
+        android:adjustViewBounds="true"
+        android:background="#66FFFFFF"
+        android:maxHeight="91dip"
+        android:maxWidth="47dip"
+        android:padding="10dip"
+        android:src="@drawable/r0"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/idBtnChangeImage"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_image" />
+
+</LinearLayout>
